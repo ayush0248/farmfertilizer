@@ -1,0 +1,53 @@
+/* src/components/InformationSection.css */
+
+.information-section {
+  padding: 40px 20px;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.information-section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.video-player {
+  margin-bottom: 20px;
+}
+
+.video-player iframe {
+  width: 50%;
+  height: 300px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+.video-carousel {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.video-item {
+  width: 60px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.video-item:hover {
+  transform: scale(1.05);
+}
+
+.video-item img {
+  width: 52%;
+  height: 160px;
+  border-radius: 10px;
+}
+
+.video-item p {
+  text-align: start;
+  margin-top: 20px;
+  font-size: 1.2em;
+  color: #000000;
+}

@@ -1,0 +1,22 @@
+/* src/components/Fertilizers.css */
+.fertilizers {
+  padding: 20px;
+}
+
+.fertilizers h1 {
+  color: #2e8b57; /* Sea green color */
+}
+
+.fertilizers p {
+  color: #4682b4; /* Steel blue color */
+}
+
+.fertilizers ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.fertilizers li {
+  margin-bottom: 10px;
+  color: #333;
+}

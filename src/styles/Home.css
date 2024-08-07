@@ -1,0 +1,62 @@
+/* src/components/Home.css */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Ensure the body takes up full height */
+}
+
+.header {
+  height: 625px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; /* For positioning the overlay */
+  cursor: pointer; /* Indicate that the header is clickable */
+  transition: background-image 1s ease-in-out, opacity 1s ease-in-out; /* Smooth transition for background image change */
+}
+
+.header.fade-in {
+  opacity: 1;
+}
+
+.header.fade-out {
+  opacity: 0;
+}
+
+.header-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-title {
+  font-size: 4rem;
+  font-weight: bold;
+  color: white;
+}
+
+.header-subtitle {
+  font-size: 2rem;
+  color: white;
+}
+
+.home {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  height: 625px;
+  text-align: center;
+  margin: 0;
+  padding: 20px; /* Add padding to sections if needed */
+}

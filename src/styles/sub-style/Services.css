@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+.service-container {
+  padding: 20px;
+}
+.service-title {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.service-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.service-card {
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  /* Adjust height as needed */
+}
+
+.service-card:hover {
+  transform: scale(1.05);
+}
+
+.service-content {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #00a859;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #007a40;
+}
+
